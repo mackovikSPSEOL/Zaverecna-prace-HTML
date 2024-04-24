@@ -8,8 +8,10 @@ body{
     min-height: 30vh;
     
     animation: blurOut 1s ease-in-out;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
     
 }
@@ -101,7 +103,7 @@ nav a:hover{
     background-size: cover;
     background-attachment: fixed;
     height: 83vh;
-    
+    position: relative;
     z-index: -1;
     
     
@@ -118,6 +120,7 @@ nav a:hover{
     border-radius: 0px;
     z-index: 1;
     box-shadow: 0px 10px 20px 1px rgb(0 0 0 / 45%);
+    position: relative;
     
     
 }
@@ -131,6 +134,7 @@ nav a:hover{
     letter-spacing: 2px;
     padding-bottom: 10px;
     text-shadow: 3px 2px 0px #cf25f9;
+    box-shadow: 0px 20px 20px 0px rgb(255 0 0 / 45%);
     
     
 }
@@ -138,13 +142,16 @@ nav a:hover{
     font-size: 4em;
     color: #6400ff;
     height: 10vh;
-    padding: 8px
+    padding: 8px;
+    box-shadow: 0px -20px 20px 1px rgb(255 0 0 / 45%);
+    height: fit-content;
+
 
 }
 #text_container{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    text-align: left;
     flex-direction: row; 
     
     padding-left: 10px;
@@ -196,6 +203,9 @@ nav a:hover{
     }
     #bg_img_first{
         max-height: 50vh;
+    }
+    #title_small{
+        font-size: 2.3em;
     }
     
 

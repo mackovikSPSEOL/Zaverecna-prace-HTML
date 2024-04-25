@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 #bg_img_first{
-    background-image: url("obrazky/background_1_mobile.JPG"); 
+    background-image: url("obrazky/obrazek_small.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

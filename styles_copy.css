@@ -217,7 +217,7 @@ nav li:first-child{
     }
 }
 
-
+/* ˇjsem nešika */
 @media (max-width:639px){
     #main_title{
         font-size: 3em;

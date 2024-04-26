@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_copy.css">
     <title>Webové stránky</title>
 </head>
 <body>
@@ -17,12 +17,24 @@
 
 <header>
 
-<nav class="bold">
-    <ul>  
-        <li><a href="#">Tipy a Triky</a></li>
-        <li><a href="#">Novinky</a></li>
-        <li><a href="#">Podpora</a></li>     
-    </ul>
+<nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a></li>
+            <!-- <li><a href="#">JK</a></li> -->
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="login_page.html">Login</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">JK</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">Blog</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">Products</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">About</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">Forum</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><menu><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></menu></a></li>
+        </ul>
 </nav>
 
     <section id="hover_text">
@@ -30,14 +42,13 @@
     </section>
             
 </header>
-
+                        
     
         <section id="bg_img_first"></section>
-
-<section class="container">
+<section>
     <section class="shadow" id="hover_text"> <h1 id="title_small">Vítejte na mojí edukační stránce!</h1> </section>
-    
-    <section id="text_container">
+</section>
+    <section class="text_container">
         <p>Na této stránce se dozvíte, jak se chránit před kybernetickými zloději a jak se chovat na internetu, tak aby jste se nestali <span class="bold"> obětí podvodu</span>. <br> 
             Existuje veliká spousta podvodů, některé se zaměřují na  <span class="bold">získání osobních údajů k vašim účtům</span>, jiné zas cilí na <span class="bold">ukradení vašich financích</span>.<br>
             Naštěstí již existuje tato <span class="underline">vzdělávací stránka</span>, na které vám ukážu jak tyto podvody vypadají a tipy k nim. <br>
@@ -45,10 +56,9 @@
             <span id="disclaimer">(Rady které vám budou poskytnuty, jsou od studenta 2. ročníku SPŠE Olomouc, a z tohoto důvodu se spíše neřidťe těmito rady.)</span>
         </p>
     </section>
-    
 </section>
         
-    
+                        </section>
 
 
 

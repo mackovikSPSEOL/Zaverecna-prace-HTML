@@ -1,10 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     scrollbar-width: thin;
     
+    
 }
+
 body{
     min-height: 30vh;
     font-family: 'Roboto', sans-serif;    
@@ -27,6 +32,11 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#blabla{
+
+    height: 5vh;
 }
 
 nav li{
@@ -188,12 +198,21 @@ a.non_deco:hover {
     text-shadow: 3px 2px 0px #000000;
     box-shadow: 0px -20px 20px 0px rgb(255 255 255 / 45%);
     width: 100%;
+    ;
     margin-left: 4vw;
     transition: 0.5s;
     margin-right: 3vw;
     background-color: white;
     position: relative;
     z-index: 3;
+}
+#title_small::before {
+    content: "";
+    display: block;
+    height: 50px; /* Adjust this value to match your navbar's height */
+    margin-top: -50px; /* This should be the negative value of the height */
+    visibility: hidden;
+    pointer-events: none;
 }
 #title_online_scams{
     font-size: 4em;
@@ -217,7 +236,7 @@ a.non_deco:hover {
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    flex-direction: row; 
+    flex-direction: column; 
     padding-left: 2vw;
     font-size: 1.5em;
     color: #000000;
@@ -301,6 +320,12 @@ a.non_deco:hover {
     }
     
 }
+@media (max-width: 700px){
+    #img_phishing{
+        width: 75%;
+    }
+}
+
 
 @media (min-width:640px){
     .menu-button{

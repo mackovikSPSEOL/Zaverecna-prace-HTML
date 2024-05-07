@@ -22,17 +22,21 @@
             <li onclick="hideSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a></li>
             <!-- <li><a href="#">JK</a></li> -->
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Forum</a></li>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Tipy a triky</a></li>
+            <li><a href="#">Podpora</a></li>
             <li><a href="login_page.html">Login</a></li>
         </ul>
         <ul>
-            <li><a href="#">JK</a></li>
-            <li id="remove_mobile" class="bold"><a href="#">Blog</a></li>
-            <li id="remove_mobile" class="bold"><a href="#">Products</a></li>
-            <li id="remove_mobile" class="bold"><a href="#">About</a></li>
-            <li id="remove_mobile" class="bold"><a href="#">Forum</a></li>
+            <li><a href="#">
+                <span class="bold">Domovská stránka</span>
+            </a></li>
+
+            <li id="remove_mobile" class="bold"><a href="#">O nás</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">Tipy a triky</a></li>
+            <li id="remove_mobile" class="bold"><a href="#">Podpora</a></li>
+            
+            
             <li class="menu-button" onclick="showSidebar()"><a href="#"><menu><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></menu></a></li>
         </ul>
 </nav>
@@ -45,20 +49,45 @@
                         
     
         <section id="bg_img_first"></section>
-<section>
-    <section class="shadow" id="hover_text"> <h1 id="title_small">Vítejte na mojí edukační stránce!</h1> </section>
+
+
+<section class="shadow" id="hover_text"> 
+    <h1 id="title_small">Vítejte na mojí edukační stránce!</h1> 
 </section>
+
     <section class="text_container">
         <p>Na této stránce se dozvíte, jak se chránit před kybernetickými zloději a jak se chovat na internetu, tak aby jste se nestali <span class="bold"> obětí podvodu</span>. <br> 
-            Existuje veliká spousta podvodů, některé se zaměřují na  <span class="bold">získání osobních údajů k vašim účtům</span>, jiné zas cilí na <span class="bold">ukradení vašich financích</span>.<br>
+            Existuje veliká spousta podvodů, některé se zaměřují na <span class="bold">získání osobních údajů k vašim účtům</span>, jiné zas cilí na <span class="bold">ukradení vašich financích</span>.<br>
             Naštěstí již existuje tato <span class="underline">vzdělávací stránka</span>, na které vám ukážu jak tyto podvody vypadají a tipy k nim. <br>
             
             <span id="disclaimer">(Rady které vám budou poskytnuty, jsou od studenta 2. ročníku SPŠE Olomouc, a z tohoto důvodu se spíše neřidťe těmito rady.)</span>
         </p>
     </section>
+<section id="online_podvody"></section>
+<section class="online_scams" id="hover_text">
+    <h1 id="title_online_scams">Internetové podvody</h1>
 </section>
+
+    <section class="text_container">
+        <p>Takovýto typ podvodů je velice častý a může se stát <span class="bold">každému</span>.
+        Proto je důležité znát jak tyto podvody vypadají a jak se jim <span class="bold">vyhnout</span>. <br>
+        zde je menší ukázka, toho jak může takový podvod vypadat: 
+        <span class="bold"><a href="showcase.html" class="not_underline non_deco">zde</a></span> <br>
+
+            Na první pohled se může zdát, že je toto <span class="bold">pravdivá</span> stránka, ale ve skutečnosti je toto <span class="bold">podvodná</span> stránka, která vám může ukrást vaše <span class="bold">osobní údaje</span> a <span class="bold">peníze</span>. <br>
+        </p>
+    </section>
+
+        <section id="format_img">
+            <img src="" alt="">
+        </section>
         
-                        </section>
+
+    </section>
+
+
+        
+                    
 
 
 
@@ -67,15 +96,7 @@
 
 
 <section id="arrow">
-    <img src="obrazky/down_arrow.png" alt="arrow">
-    <style>
-        #arrow{
-            position: fixed;
-            bottom: 0;  
-            width: 100%;
-            text-align: center;
-        }
-    </style>
+    <img src="obrazky/down_arrow.png" alt="arrow" id="arrow_img">
 </section>
 
     <script src="script.js"></script>

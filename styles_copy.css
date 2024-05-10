@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    
+    transition: 0.5s;
 }
 *{
     margin: 0;
@@ -30,13 +30,6 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#blabla{
-    height: 5vh;
-    background-color: white;
-    position: relative;
-    z-index: 3;
 }
 
 nav li{
@@ -172,7 +165,9 @@ a.non_deco:hover {
 }
 
 #main_title{
-    margin-top: 6vh ;
+    
+    margin-top: 8vh;
+    margin-bottom: 2vh;
     font-size: 5em;
     color: #6400ff;
     padding-top: 2vh;
@@ -187,7 +182,7 @@ a.non_deco:hover {
 #title_small{
     font-size: 4em;
     color: #6400ff;
-    height: 10vh;
+    height: fit-content;
     padding: 8px;
     text-shadow: 3px 2px 0px #000000;
     box-shadow: 0px -20px 20px 0px rgb(255 255 255 / 45%);
@@ -214,21 +209,24 @@ a.non_deco:hover {
 }
 
 #title_online_scams{
+    padding-top: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
     font-size: 4em;
     color: #6400ff;
-    height: 10vh;
-    padding: 8px;
     text-shadow: 3px 2px 0px #000000;
     box-shadow: 0px -20px 20px 0px rgb(255 255 255 / 45%);
     height: fit-content;
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 1vh;
     margin-left: 4.2vw;
     transition: 0.5s;
     margin-right: 3vw;
     background-color: white;
     position: relative;
     z-index: 3;
+    transition: 0.5s;
 }
 
 .text_container{
@@ -237,6 +235,7 @@ a.non_deco:hover {
     text-align: left;
     flex-direction: column; 
     padding-left: 2vw;
+    margin: 20px;
     font-size: 1.5em;
     color: #000000;
     letter-spacing: 0.1px;
@@ -259,6 +258,10 @@ a.non_deco:hover {
 #disclaimer{
     font-size: 0.5em;
     color: #000000;
+}
+#img_phishing{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @keyframes FadeIn {
@@ -326,7 +329,7 @@ a.non_deco:hover {
 }
 @media (max-width: 700px){
     #img_phishing{
-        width: 75%;
+        width: 90%;
     }
 }
 
@@ -347,7 +350,7 @@ a.non_deco:hover {
         height: auto;
     }
     #bg_img_first{
-        max-height: 40vh;
+        max-height: 50vh;
         background-size: 100%;
         background-attachment: local;
     }
@@ -363,6 +366,9 @@ a.non_deco:hover {
 @media (max-width: 557px){
     #main_title{
         font-size: 2.5em;
+    }
+    #bg_img_first{
+        max-height: 40vh;
     }
 }
 @media (max-width: 430px){

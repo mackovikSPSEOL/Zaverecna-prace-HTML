@@ -146,6 +146,10 @@ a.non_deco:hover {
     font-weight: bold;
 }
 
+.tip_password{
+    color: rgb(179, 6, 6);
+
+}
 .column{
     display: flex;
     flex-direction: column; /* Změníme směr na sloupec */
@@ -194,14 +198,7 @@ a.non_deco:hover {
     position: relative;
     z-index: 3;
 }
-#title_small::before {
-    content: "";
-    display: block;
-    height: 50px; /* Adjust this value to match your navbar's height */
-    margin-top: -50px; /* This should be the negative value of the height */
-    visibility: hidden;
-    pointer-events: none;
-}
+
 .online_scams#hover_text{
     background-color: white;
     position: relative;
@@ -230,7 +227,7 @@ a.non_deco:hover {
 }
 
 .text_container{
-    display: flex;
+    display: block;
     justify-content: flex-start;
     text-align: left;
     flex-direction: column; 

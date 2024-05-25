@@ -199,7 +199,7 @@ a.non_deco:hover {
     z-index: 3;
 }
 
-.online_scams#hover_text{
+.online_scams.hover_text{
     background-color: white;
     position: relative;
     z-index: 3;
@@ -245,7 +245,7 @@ a.non_deco:hover {
     position: relative;
     z-index: 3;
 }
-#hover_text :hover{
+.hover_text :hover{
     color:#ffb0b0;
     transition: 0.5s;
 }
@@ -354,7 +354,7 @@ a.non_deco:hover {
     #text_container{
         padding-top: 20px;
     }
-    #remove_mobile{
+    .remove_mobile{
         display: none;
     }
 }

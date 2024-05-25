@@ -99,7 +99,7 @@ nav li:first-child{
 }
 
 @media (max-width:639px){
-    #remove_mobile{
+    .remove_mobile{
         display: none;
     }
 }

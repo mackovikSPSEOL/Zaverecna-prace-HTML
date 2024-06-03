@@ -88,10 +88,12 @@ nav li:first-child{
 
 #vpravo{
     margin: 5px;
+    width: 100%;
 }
 #vlevo {
     min-height: fit-content;
     margin-bottom: 3vw;
+    min-width: 50vw;
 }
 #sirka{
     width: 100%;
@@ -115,10 +117,11 @@ nav li:first-child{
     color: rgb(249, 85, 255);
 }
 
-#nadpis{
+#nadpis {
     font-size: 2.5em;
     margin-bottom: 20px;
-
+    display: flex;
+    justify-content: flex-start;
 }
 #mezera{
     margin-bottom: 20px;
@@ -144,6 +147,9 @@ footer{
         flex-direction: column;
         align-items: center;
         }
+    #nadpis{
+        justify-content: center;
+}
 }
 
 @media (min-width:640px){

@@ -12,10 +12,7 @@ body{
     font-weight: bold;
 
 }
-.selected{
-    color: rgb(255, 255, 255) !important; 
-    background-color: #ff000050 !important; 
-}
+
 /* .selected:hover{
     background-color: #f9f9f9 !important; 
 } */

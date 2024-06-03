@@ -261,6 +261,15 @@ a.non_deco:hover {
     margin-bottom: 20px;
 }
 
+#first_tip, #second_tip{
+    text-shadow: 3px 2px 1px #000000;
+    color: #9a56ff;
+    border-top: 3px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 @keyframes FadeIn {
     0% {
         opacity: 0;

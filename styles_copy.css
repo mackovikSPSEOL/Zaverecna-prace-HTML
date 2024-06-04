@@ -374,7 +374,7 @@ a.non_deco:hover {
         font-size: 2.5em;
     }
     #bg_img_first{
-        max-height: 40vh;
+        max-height: 30vh;
     }
 }
 @media (max-width: 430px){

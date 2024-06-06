@@ -127,6 +127,34 @@ nav li:first-child{
     margin-bottom: 20px;
 
 }
+ul#styles{
+    list-style-type: none;
+
+}
+#style_plakat{
+    border: #000000 solid 1px;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+a#style_plakat{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+li#style_plakat:hover, a#style_plakat:hover{
+    color: rgb(132, 0, 255);
+    background-color: #DDDBFC;
+    transition: 0.5s;
+}
+
 footer{
     background-color: #3931CE;
     color: white;

@@ -8,6 +8,18 @@ html{
     overflow-x: hidden;
     scrollbar-width: thin;
 }
+#plakat{
+    margin: 10px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+#mensi{
+    width: 30%;
+    height: 50%;
+}
 
 body{
     min-height: 30vh;
@@ -310,7 +322,11 @@ a.non_deco:hover {
 
 }
 
-
+@media (max-width:1300px){
+    #mensi {
+        width: 60%;
+    }
+}
 @media (max-width: 840px){
     #title_small{
         font-size: 3em;
@@ -347,6 +363,7 @@ a.non_deco:hover {
     .sidebar{
         display: none;
     }
+    
 }
 
 /* ˇjsem nešika */
@@ -365,6 +382,9 @@ a.non_deco:hover {
     }
     .remove_mobile{
         display: none;
+    }
+    #mensi {
+        width: 80%;
     }
 }
 

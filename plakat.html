@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Plakát</title>
+</head>
+<body>
+    <nav>
+        
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a></li>
+            <!-- <li><a href="#">JK</a></li> -->
+            <li onclick="hideSidebar()"><a href="index.html#title_online_scams"">O nás</a></li>
+            <li onclick="hideSidebar()"><a href="index.html#first_tip">Tipy a triky</a></li>
+            <li onclick="hideSidebar()"><a href="support_page.html">Podpora</a></li>
+        </ul>
+        <ul class="bold">
+            <li id="rezponzivita"><a href="index.html">Domovská stránka</a></li>
+
+            <li class="remove_mobile"><a href="index.html#title_online_scams"">O nás</a></li>
+            <li class="remove_mobile"><a href="index.html#first_tip">Tipy a triky</a></li>
+            <li class=" remove_mobile"><a href="support_page.html">Podpora</a></li>
+            
+            
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><menu><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></menu></a></li>
+        </ul>
+</nav>
+<section id="plakat">
+    <img src="obrazky\plakat.svg" alt="plakat" id="mensi">
+</section>
+<script src="script.js"></script>
+</body>
+</html>
